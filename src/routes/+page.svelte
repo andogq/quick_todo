@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import TodoList from "$lib/components/TodoList.svelte";
+</script>
+
+<h1>Todo App</h1>
+<h3>This is the best todo app you will ever see</h3>
+
+<TodoList />
